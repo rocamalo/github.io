@@ -1,0 +1,111 @@
+.header {
+    height: 500px;
+    display: grid;
+    grid-template-rows: 20% 55% 15% 10% ;
+    grid-template-areas: "titulo"  /*Declara los nombres y cuantas filas y columnas son*/
+						 "contenido" 
+                         "search"
+                         "idioma"; 
+    justify-content: center;   
+}
+.header__input {
+    grid-area: search;
+    margin: 0 auto;
+}
+.header__button {
+    margin: 0 auto;
+}
+.header__logo img {
+    display: none;
+}
+.header__logo {
+    justify-content: center;
+}
+.header__logo h2 {
+    font-size: 3.2rem;
+}
+.header__logo h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*Seccion principal circulo*/
+
+.header__main-section {
+    width:  600px;
+    grid-template: repeat(5, 1fr) / 30% 40% 30%;
+    grid-template-areas: "español   .  ingles"
+                         "japones imagen aleman"
+                         "ruso    imagen    frances"
+                         "italiano imagen chino"
+                         "portugues  .  polaco";
+    background-image: url(./images/wikipedia2.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header__main-section p { /*Para que el texto debajo de cada idioma se quede largo*/
+    width: 150px;
+}
+.español {
+    grid-area: español;
+    position: absolute;
+    left: 60px;
+}
+.ingles {
+    grid-area: ingles;
+    position: absolute;
+    right: 60px;
+}
+.japones {
+    grid-area: japones;
+    position: absolute;
+    left: 30px;
+}
+.aleman {
+    grid-area: aleman;
+    position: absolute;
+    right: 30px;
+}
+.ruso {
+    grid-area: ruso;
+    position: absolute;
+    right: 10px;
+}
+.frances {
+    grid-area: frances;
+    position: absolute;
+    left: 10px;
+}
+.italiano {
+    grid-area: italiano;
+    position: absolute;
+    left: 30px;
+}
+.chino {
+    grid-area: chino;
+    position: absolute;
+    right: 30px;
+}
+.portugues {
+    grid-area: portugues;
+    position: absolute;
+    left: 60px;
+}
+.polaco {
+    grid-area: polaco;
+    position: relative; /*el ultimo item debe ser relative sino no se alinea*/
+    right: 60px;
+}
+.header__input {
+    max-width: 450px;
+}
+
+
+/*.imagen {
+    grid-area: imagen;
+    width: 200px;
+}*/
+.container {
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+}

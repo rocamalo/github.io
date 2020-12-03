@@ -1,0 +1,37 @@
+.second-section {
+    display: grid;
+    justify-content: center;
+    grid-template: 40% 60% / 25% 60%;
+    grid-template-areas: "wikimedia content"
+                        "stores content";
+}
+.second-section--title {
+    grid-area: wikimedia;
+}
+.container {
+    grid-area: content;
+}
+.footer-wrapper {
+    grid-area: stores;
+}
+
+.footer__title img { /*tamaño logo descargar wiki IOS andorid*/
+    width: 42px;
+    height: 42px;
+}
+
+.second-section--title {
+    border-top: none;
+}
+.second-section {
+    border-top: 1px solid #c8ccd1;
+    padding-top: 20px;
+}
+.header {
+    padding-bottom: 20px;
+}
+.footer {
+    height: 50px;
+    margin-top: 80px;
+    font-size: 1.3rem;
+}

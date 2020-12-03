@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Wikipedia</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite el diseño responsive, el viewport es el tamaño total de la pantalla -->
+		<link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./tablet.css" media="(min-width: 600px)">
+        <link rel="stylesheet" type="text/css" href="./desktop.css" media="(min-width: 800px)">
+	<!--	<link rel="stylesheet" type="text/css" href="./css/tablet.css" media="(min-width: 1200px)"> -->
+	</head>
+	<body>
+       <header class="header"> 
+            <div class="header__logo">
+            <img src="./images/wikipedia.png" alt="logo wikipedia">
+            <div class="logo-container">
+                <h2>WIKIPEDIA</h2>
+                <h3>La enciclopedia libre</h3>
+                </div>
+            </div>
+            <div class="header__input">
+                <input type="search">
+                <select class="selector" id="searchLanguage" name="language">
+                    <option value="es" lang="es">ES</option>
+                    <option value="en" lang="en">EN</option>
+                    <option value="fr" lang="fr">FR</option>
+                    <option value="br" lang="br">BR</option>
+                </select>
+                <img class="search" src="./images/search.png" alt="icono de busqueda">
+            </div>
+            <div class="header__main-section">
+             <!--   <img class="imagen" src="./images/wikipedia.png" alt=""> -->
+                <div class="header__main-section--item español">
+                    <p class="language">Español</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item ingles">
+                    <p class="language">English</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item japones">
+                    <p class="language">日本語</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item aleman">
+                    <p class="language">Deutsch</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item ruso">
+                    <p class="language">Русский</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item frances">
+                    <p class="language">Français</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item italiano">
+                    <p class="language">Italiano</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item chino">
+                    <p class="language">中文</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item portugues">
+                    <p class="language">Português</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+                <div class="header__main-section--item polaco">
+                    <p class="language">Polski</p>
+                    <p>1 643 000+ articulos</p>
+                </div>
+            </div>
+            <div class="header__button">
+                <button>
+                    <span class="header__button--language-icon">texto</span>
+                    <span>Leer Wikipedia en tu idioma</span>
+                    <select name="" id=""></select>
+                </button>
+            </div>
+       </header>
+       <section class="second-section">
+            <div class="second-section--title">
+                <img src="./images/wikimedia-black.png" alt="logo">
+                <p>Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</p>
+            </div>
+            <div class="container">
+                <div class="container-item">
+                    <img id="commons" src="./images/commons.png" alt="commons">
+                    <div class="container-item--wrapper">
+                        <h3>Commons</h3>
+                        <p>Fotos libremente utilizables y más</p>
+                    </div>    
+                </div>
+                <div class="container-item">
+                    <img src="./images/wikiviajes.png" alt="commons">
+                    <div class="container-item--wrapper">
+                      <h3>Wikiviajes</h3>
+                      <p>La guía de viajes libre</p>
+                     </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikcionario" src="./images/wikcionario.jpg" alt="commons">
+                    <div class="container-item--wrapper">
+                        <h3>Wikcionario</h3>
+                        <p>El diccionario libre</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikilibros" src="./images/wikilibros.png" alt="commons">
+                    <div class="container-item--wrapper">
+                      <h3>Wikilibros</h3>
+                      <p>Libros de contenido libre</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikinoticias" src="./images/wikinoticias.png" alt="commons">
+                    <div class="container-item--wrapper">
+                        <h3>Wikinoticias</h3>
+                        <p>La fuente de noticias libres</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikidata" src="./images/wikidata.png" alt="commons">
+                    <div class="container-item--wrapper">
+                        <h3>Wikidata</h3>
+                        <p>Base de conocimiento libre</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img src="./images/wikiversidad.png" alt="commons">
+                    <div class="container-item--wrapper">
+                         <h3>Wikiversidad</h3>
+                         <p>Plataforma eductiva libre</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikiquote" src="./images/wikiquote.png" alt="commons">
+                    <div class="container-item--wrapper">
+                         <h3>Wikiquote</h3>
+                         <p>La colección de citas</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img src="./images/mediawiki.png" alt="commons">
+                    <div class="container-item--wrapper">
+                         <h3>Mediawiki</h3>
+                         <p>Aplicación wiki libre y abierta</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikisource" src="./images/wikisource.png" alt="commons">
+                    <div class="container-item--wrapper">
+                         <h3>Wikisource</h3>
+                         <p>La biblioteca libre</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img id="wikispecies" src="./images/wikispecies.png" alt="commons">
+                    <div class="container-item--wrapper">
+                         <h3>Wikispecies</h3>
+                         <p>Directorio de especies libre</p>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <img src="./images/metawiki.svg" alt="commons">
+                    <div class="container-item--wrapper">
+                          <h3>Meta-wiki</h3>
+                          <p>Coordinación y documentación comunitaria</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-wrapper">
+                <div class="footer__title">
+                    <img src="./images/wiki-app-logo.png" alt="wikilogo">
+                    <p>Descargar Wikipedia para Android o IOS</p>
+                </div>
+                <div class="footer__texto">
+                    <p>Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.</p>
+                    <div class="footer_stores">
+                        <img src="./images/play.png" alt="googleplay">
+                        <img src="./images/app-store.png" alt="appstore">
+                    </div>
+                </div>
+            </div>
+       </section>
+       <footer class="footer">
+            <div class="footer__terminos">
+                <p>Esta página esta disponible bajo la</p>
+                <a href="">licencia Creative Commons Atribución-CompartirIgual -</a>
+                <a href="">Términos de uso -</a>
+                <a href="">Normativa de privacidad</a>
+            </div>
+       </footer>
+	</body>
+</html>
