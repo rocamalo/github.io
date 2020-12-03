@@ -11,6 +11,7 @@ html {
 }
 .header__logo img {
     width: 50px;
+    height: 48px;	
     margin-right: 10px;
 }
 body {
